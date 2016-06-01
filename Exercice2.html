@@ -6,7 +6,12 @@
 </head>
 <body>
   <form>
-    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom" onblur="alert('Merci de votre participation')"/>
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" onblur="Participation()" value="" id="nom"/>
+    <script>
+    function Participation(){
+    alert('Merci pour votre participation');
+    }
+  </script>
   </form>
 </body>
 </html>
